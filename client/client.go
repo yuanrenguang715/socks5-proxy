@@ -7,8 +7,8 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"socks5-proxy-dende/utils/config"
-	"socks5-proxy-dende/utils/logger"
+	"socks5-proxy/utils/config"
+	"socks5-proxy/utils/logger"
 	"strconv"
 )
 
