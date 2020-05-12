@@ -9,8 +9,8 @@ import (
 	"io"
 	"io/ioutil"
 	"net"
-	"socks5-proxy/utils/config"
-	"socks5-proxy/utils/logger"
+	"utils/config"
+	"utils/logger"
 	"strconv"
 	"time"
 )

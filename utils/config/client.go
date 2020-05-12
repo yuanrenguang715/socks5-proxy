@@ -1,8 +1,7 @@
 package config
 
 import (
-	"socks5-proxy-dende/utils/logger"
-
+	"utils/logger"
 	"github.com/go-ini/ini"
 )
 
