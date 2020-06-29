@@ -1,29 +1,18 @@
 # socks5--proxy
-
 ##author: Dende
-
-###簡單翻牆代理：
-
-####通訊層加密
-
-####tls鏈接
-
-####網絡編程學習
-
-####科学上网
+  socks代理：
+  tls鏈接
+  网络编程
+  科学上网
 
 ##SERVER服务端
-
-####使用docker运行：
-
-#####<拉取镜像>
-
+  使用docker运行：
+    <拉取镜像>
 ````
 docker pull godende/go-proxy:0.1
 ````
 
-#####<运行镜像>
-
+    <运行镜像>
 ````
 sudo docker run -id -p 11080:11080 --name go-proxy godende/go-proxy:0.1
 ````
