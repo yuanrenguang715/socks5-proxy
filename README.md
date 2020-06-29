@@ -1,6 +1,6 @@
 # socks5--proxy
 ## author: Dende
-### socks代理：
+### socks代理
 #### tls连接
 #### 网络編程
 #### 科学上网
