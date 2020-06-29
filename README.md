@@ -15,7 +15,16 @@ docker pull godende/go-proxy:0.1
 ````
 sudo docker run -id -p 11080:11080 --name go-proxy godende/go-proxy:0.1
 ````
+#### 下载发行版本运行：
+````
+https://github.com/yuanrenguang715/socks5-proxy/releases
+````
 ## CLIENT客户端
+
+#### 下载发行版本运行：
+````
+https://github.com/yuanrenguang715/socks5-proxy/releases
+````
 ````
 需要開啓本地socks主機
 終端代理需要添加規則
@@ -23,3 +32,5 @@ sudo docker run -id -p 11080:11080 --name go-proxy godende/go-proxy:0.1
 export http_proxy="socks5://127.0.0.1:2553"
 export https_proxy="socks5://127.0.0.1:2553"
 ````
+
+##### 目前仅仅支持linux客户端,更多客户端请待更新 
