@@ -1,24 +1,21 @@
 # socks5--proxy
-##author: Dende
-  socks代理：
-  tls鏈接
-  网络编程
-  科学上网
+## author: Dende
+### socks代理：
+#### tls连接
+#### 网络編程
+#### 科学上网
 
-##SERVER服务端
-  使用docker运行：
-    <拉取镜像>
+## SERVER服务端
+#### 使用docker运行：
+##### <拉取镜像>
 ````
 docker pull godende/go-proxy:0.1
 ````
-
-    <运行镜像>
+##### <运行镜像>
 ````
 sudo docker run -id -p 11080:11080 --name go-proxy godende/go-proxy:0.1
 ````
-
-##CLIENT客户端
-
+## CLIENT客户端
 ````
 需要開啓本地socks主機
 終端代理需要添加規則
